@@ -1,0 +1,5 @@
+.links-container {
+  transform: translateX(0%);
+  position: static;
+  height: 8vh;
+}

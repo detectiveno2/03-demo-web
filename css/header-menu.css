@@ -1,0 +1,66 @@
+.site {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-size: 1.1rem;
+}
+
+.header-wrapper {
+  background-color: #e15554;
+  height: 8vh;
+  min-width: 100vw;
+}
+
+.links-container {
+  height: 92vh;
+  background-color: #e15554;
+  top: 8vh;
+  right: 0%;
+  width: 50%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+  position: fixed;
+}
+
+.nav-links {
+  list-style: none;
+  height: 100%;
+}
+
+.nav-links li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-links li a {
+  color: #fff;
+}
+
+.slide-menu {
+  transform: translateX(0%);
+}
+
+.burger div {
+  transition: all 0.3s ease;
+}
+
+.burger div {
+  background-color: #fff;
+  width: 25px;
+  height: 3px;
+  margin: 4px;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(0, 10px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(0, -10px);
+}
