@@ -8,3 +8,7 @@ body {
   font-family: "Roboto Mono", monospace;
   width: 100vw;
 }
+
+.site-body {
+  margin-top: 8vh;
+}
