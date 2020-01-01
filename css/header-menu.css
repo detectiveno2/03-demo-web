@@ -8,6 +8,7 @@
   background-color: #4d9de0;
   height: 8vh;
   min-width: 100vw;
+  z-index: 9999;
 }
 
 .links-container {
