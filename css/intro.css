@@ -1,0 +1,53 @@
+.intro-wrapper {
+  background: rgb(77, 157, 224);
+  background: linear-gradient(
+    180deg,
+    rgba(77, 157, 224, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 2rem;
+}
+
+.intro-item-wrapper {
+  margin: 0.5rem 0;
+}
+
+.intro-items {
+  margin-bottom: 1rem;
+}
+
+.intro-items .intro-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.5rem 0rem;
+  padding: 1rem;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.intro-items .intro-item:hover {
+  transform: translateY(-1rem);
+  transition: 0.5s;
+}
+
+.intro-items .intro-item img {
+  width: 90%;
+  margin: 0.5rem;
+}
+
+.intro-items h1,
+p {
+  text-align: center;
+  margin: 1rem;
+}
+
+.intro-items h1 {
+  font-size: 2rem;
+}
+
+.intro-items p {
+  font-size: 1rem;
+}
