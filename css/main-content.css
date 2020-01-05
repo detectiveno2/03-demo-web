@@ -1,0 +1,16 @@
+.main-content {
+  padding-top: 2rem;
+}
+
+// Amount information
+
+.amount-information .amount-item {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 2.1rem;
+  margin: 1.2rem 0;
+}
+
+.amount-information .amount-item p {
+  font-size: 1.5rem;
+}
