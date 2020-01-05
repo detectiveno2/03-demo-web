@@ -2,7 +2,7 @@
   padding-top: 2rem;
 }
 
-// Amount information
+/* Amount information */
 
 .amount-information .amount-item {
   font-size: 3rem;
@@ -13,4 +13,51 @@
 
 .amount-information .amount-item p {
   font-size: 1.5rem;
+}
+
+/* Roboto usage */
+
+.roboto-usage {
+  margin-top: 2rem;
+}
+
+.roboto-usage .roboto-usage-img img {
+  width: 100%;
+}
+
+.roboto-usage .roboto-usage-content h3 {
+  padding: 1rem;
+  margin: 0;
+}
+
+.roboto-usage .roboto-usage-content p {
+  padding: 0rem 1rem;
+  margin: 0;
+}
+
+.roboto-usage .roboto-usage-content button {
+  padding: 1rem 0.7rem;
+}
+
+.roboto-usage .roboto-usage-content button:hover {
+  background-color: #f94f15;
+  border-color: #f94f15;
+  transition: 0.5s;
+}
+
+.listed-advantages {
+  margin: 1rem 0rem;
+}
+
+.listed-advantages .listed-advantages-item {
+  margin: 0.5rem 0rem;
+}
+
+.listed-advantages .listed-advantages-item .check-wrapper {
+  background-color: rgb(196, 223, 245);
+  padding: 0.25rem 0.5rem;
+}
+
+.listed-advantages .listed-advantages-item .check-wrapper i {
+  color: #4d9de0;
 }
